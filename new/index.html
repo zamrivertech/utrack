@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UTRACK E.I - Your Local Tech Partner in Tete, Mozambique. Providing enterprise-grade technology solutions, vehicle tracking, and IT consulting.">
+    <meta name="keywords" content="Technology Tete, Vehicle Tracking Mozambique, IT Services, Fleet Management, Cybersecurity, Networking, UTRACK">
+    <meta name="author" content="UTRACK E.I">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.utrack.co.mz/">
+    <meta property="og:title" content="UTRACK E.I | Technology Solutions in Mozambique">
+    <meta property="og:description" content="Leading technology partner for digital transformation, security, and connectivity in Central and Northern Mozambique.">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UTRACK E.I | Tech Partner">
+    <meta name="twitter:description" content="Enterprise technology solutions based in Tete, Mozambique.">
+
+    <title>UTRACK E.I | Your Local Tech Partner in Tete</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Skip to Content -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <header class="main-header sticky">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <!-- [COMPANY LOGO PLACEHOLDER] -->
+                    <span class="logo-text">UTRACK <span class="accent">E.I</span></span>
+                </a>
+            </div>
+
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About</a></li>
+                    <li class="has-mega">
+                        <a href="services.html" data-i18n="nav_services">Services <span class="chevron"></span></a>
+                        <div class="mega-menu">
+                            <div class="container mega-grid">
+                                <div class="mega-col">
+                                    <h4 data-i18n="mega_security">Security & Tracking</h4>
+                                    <a href="services.html#tracking" data-i18n="ser_tracking">Vehicle Tracking</a>
+                                    <a href="services.html#fleet" data-i18n="ser_fleet">Fleet Management</a>
+                                    <a href="services.html#cctv" data-i18n="ser_cctv">CCTV & Access Control</a>
+                                </div>
+                                <div class="mega-col">
+                                    <h4 data-i18n="mega_infrastructure">Infrastructure</h4>
+                                    <a href="services.html#networking" data-i18n="ser_networking">Networking & Fiber</a>
+                                    <a href="services.html#servers" data-i18n="ser_servers">Server Installation</a>
+                                    <a href="services.html#support" data-i18n="ser_support">IT Support</a>
+                                </div>
+                                <div class="mega-col">
+                                    <h4 data-i18n="mega_digital">Digital Solutions</h4>
+                                    <a href="services.html#web" data-i18n="ser_web">Web Development</a>
+                                    <a href="services.html#cloud" data-i18n="ser_cloud">Cloud & Hosting</a>
+                                    <a href="services.html#cyber" data-i18n="ser_cyber">Cybersecurity</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="industries.html" data-i18n="nav_industries">Industries</a></li>
+                    <li><a href="projects.html" data-i18n="nav_projects">Projects</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="language-switcher">
+                    <button id="lang-en" class="lang-btn active">EN</button>
+                    <span class="divider">|</span>
+                    <button id="lang-pt" class="lang-btn">PT</button>
+                </div>
+                <a href="contact.html" class="btn btn-primary btn-sm" data-i18n="cta_get_started">Get Started</a>
+                <button class="mobile-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-bg-animation" id="hero-canvas"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <span class="badge" data-i18n="hero_badge">Technology Partner in Mozambique</span>
+                    <h1 data-i18n="hero_title">Empowering Growth Through <span class="text-gradient">Innovative Tech</span></h1>
+                    <p class="hero-subtitle" data-i18n="hero_desc">UTRACK E.I provides premium IT solutions and specialized tracking services tailored for the unique challenges of the African enterprise landscape.</p>
+                    <div class="hero-btns">
+                        <a href="services.html" class="btn btn-primary btn-lg" data-i18n="hero_cta_primary">Explore Solutions</a>
+                        <a href="about.html" class="btn btn-outline btn-lg" data-i18n="hero_cta_secondary">Our Mission</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-bar">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="150">0</span><span class="stat-plus">+</span>
+                        <p data-i18n="stat_clients">Enterprise Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+                        <p data-i18n="stat_years">Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+                        <p data-i18n="stat_projects">Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="24">0</span><span class="stat-plus">/7</span>
+                        <p data-i18n="stat_support">Technical Support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brief Intro -->
+        <section class="intro-section section-padding">
+            <div class="container grid-2">
+                <div class="intro-image reveal">
+                    <!-- [IMAGE PLACEHOLDER: Modern Office or Tete Landscape] -->
+                    <div class="image-wrapper glass">
+                        <img src="assets/images/office-placeholder.jpg" alt="UTRACK Office" class="img-responsive">
+                    </div>
+                </div>
+                <div class="intro-text">
+                    <h2 data-i18n="intro_title">Local Expertise, <br>Global Standards</h2>
+                    <p data-i18n="intro_p1">Based in Tete, UTRACK E.I is a locally owned technology leader dedicated to bridging the digital divide in Central and Northern Mozambique.</p>
+                    <p data-i18n="intro_p2">We don't just provide services; we build long-term partnerships that drive efficiency, security, and digital transformation for businesses of all sizes.</p>
+                    <ul class="check-list">
+                        <li data-i18n="check_1">Customized Enterprise Solutions</li>
+                        <li data-i18n="check_2">Reliable Support Infrastructure</li>
+                        <li data-i18n="check_3">Deep Local Market Knowledge</li>
+                    </ul>
+                    <a href="about.html" class="link-arrow" data-i18n="learn_more">Learn more about us <span class="arrow">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section class="services-preview section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 data-i18n="ser_preview_title">Our Core Capabilities</h2>
+                    <p data-i18n="ser_preview_desc">Comprehensive technology services designed to power modern industry.</p>
+                </div>
+                <div class="services-grid">
+                    <!-- Card 1 -->
+                    <div class="service-card reveal">
+                        <div class="icon-box">
+                            <svg viewBox="0 0 24 24" class="svg-icon"><path d="M12,2L4.5,20.29L5.21,21L12,18L18.79,21L19.5,20.29L12,2Z"/></svg>
+                        </div>
+                        <h3 data-i18n="card_tracking_title">Vehicle Tracking</h3>
+                        <p data-i18n="card_tracking_desc">Real-time GPS monitoring and recovery services for individual and commercial vehicles.</p>
+                        <a href="services.html#tracking" class="btn-text" data-i18n="view_details">View Details</a>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="service-card reveal" style="transition-delay: 0.1s;">
+                        <div class="icon-box">
+                            <svg viewBox="0 0 24 24" class="svg-icon"><path d="M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5Z"/></svg>
+                        </div>
+                        <h3 data-i18n="card_fleet_title">Fleet Management</h3>
+                        <p data-i18n="card_fleet_desc">Advanced analytics, fuel monitoring, and driver behavior reports for logistics optimization.</p>
+                        <a href="services.html#fleet" class="btn-text" data-i18n="view_details">View Details</a>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="service-card reveal" style="transition-delay: 0.2s;">
+                        <div class="icon-box">
+                            <svg viewBox="0 0 24 24" class="svg-icon"><path d="M12,11L12,19L5,19L5,11L12,11M16.35,7.2L15.74,8.22L14.71,7.61L15.32,6.58L16.35,7.2M19.45,12.61L17.93,12.61L17.93,11.39L19.45,11.39V12.61M16.35,18L15.32,18.61L14.71,17.58L15.74,16.97L16.35,18M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2Z"/></svg>
+                        </div>
+                        <h3 data-i18n="card_it_title">Managed IT Services</h3>
+                        <p data-i18n="card_it_desc">End-to-end server maintenance, workstation support, and network administration.</p>
+                        <a href="services.html#it" class="btn-text" data-i18n="view_details">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries Section -->
+        <section class="industries-preview section-padding">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h2 data-i18n="ind_title">Serving Mozambique's Key Sectors</h2>
+                        <p data-i18n="ind_desc">We understand the specific technological demands of the industries driving our regional economy.</p>
+                    </div>
+                    <div class="industry-tags">
+                        <span class="tag">Mining</span>
+                        <span class="tag">Logistics</span>
+                        <span class="tag">Agriculture</span>
+                        <span class="tag">Government</span>
+                        <span class="tag">Healthcare</span>
+                        <span class="tag">Education</span>
+                        <span class="tag">Construction</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-banner">
+            <div class="container text-center">
+                <h2 data-i18n="cta_title">Ready to transform your technology?</h2>
+                <p data-i18n="cta_desc">Contact our expert team in Tete for a customized consultation.</p>
+                <a href="contact.html" class="btn btn-white btn-lg" data-i18n="cta_btn">Talk to an Expert</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <span class="logo-text">UTRACK <span class="accent">E.I</span></span>
+                <p data-i18n="footer_about">Professional technology solutions based in Tete, Mozambique. Improving security and connectivity across the nation.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn">LN</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_quick">Quick Links</h4>
+                <ul>
+                    <li><a href="about.html" data-i18n="nav_about">About</a></li>
+                    <li><a href="projects.html" data-i18n="nav_projects">Projects</a></li>
+                    <li><a href="careers.html" data-i18n="nav_careers">Careers</a></li>
+                    <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_services">Services</h4>
+                <ul>
+                    <li><a href="services.html#tracking" data-i18n="ser_tracking">Tracking</a></li>
+                    <li><a href="services.html#it" data-i18n="ser_it">IT Support</a></li>
+                    <li><a href="services.html#cloud" data-i18n="ser_cloud">Cloud Services</a></li>
+                    <li><a href="services.html#security" data-i18n="ser_security">Cybersecurity</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4 data-i18n="footer_contact_h">Contact Us</h4>
+                <p>Tete, Mozambique</p>
+                <p>[ADD PHONE MANUALLY]</p>
+                <p>[ADD EMAIL MANUALLY]</p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; <span id="year"></span> UTRACK E.I. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="privacy.html" data-i18n="nav_privacy">Privacy Policy</a>
+                <a href="terms.html" data-i18n="nav_terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./script.js"></script>
+</body>
+</html>
